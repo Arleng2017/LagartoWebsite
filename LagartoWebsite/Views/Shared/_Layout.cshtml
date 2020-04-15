@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LagartoWebsite</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<div class="side-bar text-center ">
+    <img src="~/imgs/logo.png" alt="Alternate Text" />
+    <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Our Sevices</li>
+        <li>Our Barbers</li>
+        <li>Appointment</li>
+        <li>Contact</li>
+    </ul>
+</div>
+<body>
+    <div class="main">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class=" footer py-5">
+        <div calss="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 text-center">
+                    <p class="">
+                        <a href="#" class="text-white text-uppercase px-2">home</a>
+                        <a href="#" class="text-white text-uppercase px-2">blog</a>
+                        <a href="#" class="text-white text-uppercase px-2">pricing</a>
+                        <a href="#" class="text-white text-uppercase px-2">about</a>
+                        <a href="#" class="text-white text-uppercase px-2">faQ</a>
+                        <a href="#" class="text-white text-uppercase px-2">contact</a>
+                    </p>
+                    <span>
+                        All Rights Reserved. &copy; 2018 <a>SMBarber</a> Design By : <a>html design</a>
+                    </span>
+                </div>
+                <div class="col-lg-6 col-md-12   py-4 pull-right">
+                    <form action="/" method="post" class="py-1 px-4">
+                        <input type="text"  placeholder="Subscribe our newsletter.." /> <i class="fa fa-envelope-o"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,234 @@
+﻿:root {
+    --primary-color: #bb9d52;
+    --secondary-color: #808080;
+}
+.banner-slide-show {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://html.design/demo/smbarber/uploads/barber_slider.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 800px;
+}
+ .banner-content h2{
+     font-size:68px;
+     color:white;
+    padding-top:200px;
+}
+
+.banner-content h3 {
+    font-size: 52px;
+    color: white;
+    padding-top: 0.1rem;
+    font-weight:300;
+}
+
+.banner-content p {
+    font-size: 21px;
+    font-weight:200;
+    color: white;
+    margin:0 auto;
+    width:40rem;
+    padding-top: 0.1rem;
+    transition:.5s;
+
+}
+.banner-content button{
+    background:black !important;
+    border:none;
+}
+    .banner-content button:hover {
+        background: var(--primary-color) !important;
+    }
+.interesting-service {
+    background: black !important;
+    transition: .5s;
+}
+.interesting-service:hover {
+    background-color: var(--primary-color) !important;
+}
+.interesting-service a {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.about {
+    width: 100%;
+    overflow: hidden;
+}
+.about-content {
+    border-bottom: 1px dashed #e2e2e2;
+}
+.about span{
+    font-size:1.2rem;
+    font-weight:500;
+}
+.about blockquote,.about p {
+    margin:0 auto;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+}
+.about blockquote {
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #808080;
+}
+
+.about p {
+    color: #808080;
+    border-bottom:#dbdbdb 
+}
+
+.about button {
+    background: black;
+    border:none;
+    padding:0.7rem 2.5rem !important;
+}
+.about button:hover {
+    background: var(--primary-color);
+        
+}
+.our-mission {
+    padding-bottom:3rem;
+    border-bottom: 1px dashed #e2e2e2;
+    width:100%;
+    overflow:hidden;
+}
+
+.our-mission .nav-pills {
+    left:32%;
+    position:relative;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+.our-mission .nav-pills .nav-menu {
+    margin:0 auto !important;
+    text-align: center !important;
+}
+.our-mission .nav-pills a {
+    color:black ;
+    text-align:center;
+    margin:0 auto;
+}
+.our-mission .nav-pills a:hover {
+    background:black;
+    color:white;
+}
+.our-mission .nav-pills .active {
+    background: var(--primary-color);
+}
+.our-mission p{
+    width:80%;
+    color:var(--secondary-color);
+    margin: 0 auto !important;
+}
+.our-division img{
+    width:20rem;
+}
+.our-division h3 {
+    font-size: 1.2rem;
+    color:#464141;
+}
+.our-division p {
+    font-size: 1rem;
+    color:var(--secondary-color);
+}
+
+.our-barbers {
+    background: #efefef;
+    width:100%;
+    overflow:hidden;
+    padding:5rem 0 ;
+}
+.our-barbers-content .title  p {
+    color:var(--secondary-color);
+    margin:0 auto;
+    padding-bottom:3rem!important;
+}
+.our-barbers span {
+    color: var(--secondary-color);
+    letter-spacing: 0.1rem;
+}
+.our-barbers h3 {
+    font-size:1.8rem;
+    font-weight:bold;
+}
+.our-barbers hr {
+    width: 100px !important;
+    color: black;
+    border: 2px solid black;
+}
+.our-barbers .card  {
+    background:white;
+    border:none;
+    border-radius:0;
+}
+.our-barbers .card img{
+    margin:0 auto;
+    width:100%;
+    
+    padding:1.5rem;
+    overflow:hidden;
+    transition:.5s;
+}
+.our-barbers .card img:hover {
+    transform:scale(1.1);
+}
+.our-barbers .card img {
+    overflow: hidden;
+}
+.our-barbers .card h3 {
+    color:#464141;
+    font-weight:400;
+    font-size:1.4rem;
+}
+.our-barbers .card p {
+    margin:0 auto;
+    color: #808080;
+    font-weight: 300;
+    width:90%;
+    padding-top:1.2rem;
+    padding-bottom:4rem !important;
+
+}
+
+.happy-testimonials {
+    background-image: url(https://html.design/demo/smbarber/uploads/parallax_20.jpg);
+    background-repeat: none;
+    overflow:hidden;
+
+}
+.happy-testimonials .title h3 {
+    font-size:2rem;
+}
+.happy-testimonials .title hr {
+    border: 1px solid white;
+    width: 100px !important;
+}
+.happy-testimonials .title span {
+    color: #9f9f9f !important;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+.happy-testimonials .title p {
+    margin: 0 auto;
+    color: #9f9f9f !important;
+    font-weight: 400;
+    width: 50%;
+    padding-top: 1.2rem;
+    font-size: 1.1rem;
+    padding-bottom: 4rem !important;
+}
+
+.slide-show .desc{
+    background:var(--primary-color);
+    border-radius:.5rem;
+}
+.slide-show .desc h4 {
+    text-align:right;
+    line-height:30px;
+    position:relative;
+    display:block;
+}
